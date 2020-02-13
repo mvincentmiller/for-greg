@@ -1,0 +1,63 @@
+$brandColor: #e24625;
+
+.accountNavMobile {
+  @media not all and (max-width: 1024px) {
+    display: none;
+  }
+}
+.accountNavMobileList {
+}
+.accountNavMobileItem {
+  display: block;
+  list-style: none;
+  margin-bottom: none;
+  text-align: center;
+}
+.mobileAccountheader {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 0.94px;
+  display: block;
+  border-top: 1px solid #97979766;
+  border-bottom: 1px solid #97979766;
+  text-align: center;
+  a {
+    color: black;
+    padding: 19px 0;
+    display: block;
+  }
+  img {
+    height: 1.4rem;
+    display: inline-block;
+    position: absolute;
+    left: calc(100% - 35px);
+  }
+  .arrowActive {
+    transform: rotate(-180deg);
+    transition: 0.4s ease-in-out;
+  }
+  .arrowInActive {
+    transform: rotate(0deg);
+    transition: 0.4s ease-in-out;
+  }
+}
+li.navLink:nth-child(0) {
+  padding: 15px 0;
+  border-top: 1px solid #97979766;
+}
+.navLink {
+  padding: 15px 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 0.94px;
+  display: block;
+  border-bottom: 1px solid #97979766;
+}
+.navLink:hover {
+  color: $brandColor;
+}
+.active {
+  color: $brandColor;
+}

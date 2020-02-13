@@ -1,0 +1,130 @@
+.contactUs {
+  .title {
+    color: #000000;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .subtitle {
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 42%;
+    margin: auto;
+    margin-bottom: 1.75rem;
+  }
+  .form {
+    width: 40%;
+    margin: auto;
+  }
+  .dropDown {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ecf1f4;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+  .menu {
+    width: 575px;
+  }
+  .menuItem {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #222222;
+    :hover {
+      color: white;
+      background-color: #253b56;
+    }
+  }
+  .input {
+    color: #6a7889;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    width: 100%;
+    box-shadow: 0px 0px;
+    border-bottom-width: 2px;
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom-color: #a1afc0;
+    border-width: 2px;
+    margin-bottom: 1.5rem;
+  }
+  .nameLine {
+    margin-top: 20px;
+  }
+  .first {
+    margin-right: 5px;
+    margin-bottom: -0.5rem;
+  }
+  .last {
+    margin-left: 5px;
+    margin-bottom: -0.5rem;
+  }
+  .button {
+    height: 44px;
+    width: 180px;
+    border-radius: 24px;
+    background-color: #0795e6;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .arrow {
+    height: 26px;
+    width: 23px;
+    color: #a1afc0;
+    font-family: Peptasia;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+  .finePrint {
+    color: #78899e;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    width: 35%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .option {
+    color: #222222;
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+  .option:hover {
+    background-color: #253b56;
+  }
+
+  @media (max-width: 768px) {
+    .first,
+    .last {
+      margin: auto;
+      margin-bottom: 1.5rem;
+    }
+    .form,
+    .finePrint,
+    .subtitle {
+      width: 85%;
+    }
+  }
+}

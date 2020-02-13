@@ -1,0 +1,58 @@
+site_name: Gold Standard Docs
+repo_url: https://github.com/BuluBox/gs/
+edit_uri: edit/master/docs/docs
+use_directory_urls: false
+theme:
+  name: 'material'
+  logo: 'images/bulugroup-logo.png'
+  palette:
+    primary: 'amber'
+    accent: 'amber'
+  feature:
+    tabs: true
+
+nav:
+  - Why:
+      - 'Introduction': 'index.md'
+      - 'Thinking in React': 'keyTools/thinkingInReact.md'
+      - 'What makes a Bulu Gold Standard Site?': 'whatMakes/whatMakes.md'
+      - 'Account: In-depth': 'whatMakes/account.md'
+      - 'Subscribe: In-depth': 'whatMakes/subscribe.md'
+      - 'Bulu Checkout: In-depth': 'whatMakes/checkout.md'
+  - Architecture:
+      - 'Contributing': 'keyTools/CONTRIBUTING.md'
+      - 'Architecture': 'keyTools/ARCHITECTURE_GUIDE.md'
+      - 'Styling Guide': 'miscDocs/STYLING.md'
+      - 'Endpoints': 'miscDocs/ENDPOINTS.md'
+      - 'Data Seams': 'miscDocs/dataSeams.md'
+      - 'React on Shopify': 'miscDocs/HYBRID.md'
+      - 'What is React?': 'keyTools/react.md'
+      - 'What is Mobx?': 'keyTools/mobx.md'
+      - 'What is GraphQl?': 'keyTools/graphQl.md'
+  - These Docs:
+      - 'Installation of these Docs': 'miscDocs/install.md'
+  - Back to the Portal: 'http://gs.bulu.io'
+
+markdown_extensions:
+  - codehilite
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

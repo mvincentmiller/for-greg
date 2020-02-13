@@ -1,0 +1,25 @@
+$brandColor: #171717;
+
+.accountNav {
+}
+.accountNavList {
+}
+.accountNavItem {
+  list-style: none;
+  margin-bottom: none;
+  width: 100%;
+}
+.navLink {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 0.94px;
+  display: block;
+  &:hover {
+    color: $brandColor;
+  }
+}
+.active {
+  color: $brandColor;
+}

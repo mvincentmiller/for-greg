@@ -1,0 +1,10 @@
+mutation subscriptionDiscount(
+  $accessToken: String!
+  $subscription: SubscriptionDiscountInput!
+) {
+  subscriptionDiscount(accessToken: $accessToken, subscription: $subscription) {
+    subscription {
+      id
+    }
+  }
+}

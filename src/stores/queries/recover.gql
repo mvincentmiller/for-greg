@@ -1,0 +1,5 @@
+mutation accountPasswordRecover($email: String!) {
+  accountPasswordRecover(email: $email) {
+    email
+  }
+}

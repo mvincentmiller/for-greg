@@ -1,0 +1,12 @@
+query variants($prefix: String!) {
+  variants(prefix: $prefix) {
+    id
+    productId
+    sku
+    image
+    variantTitle
+    productTitle
+    price
+    available
+  }
+}

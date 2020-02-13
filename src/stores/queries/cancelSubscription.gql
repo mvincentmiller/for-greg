@@ -1,0 +1,10 @@
+mutation subscriptionCancel(
+  $accessToken: String!
+  $subscription: SubscriptionCancelInput!
+) {
+  subscriptionCancel(accessToken: $accessToken, subscription: $subscription) {
+    subscription {
+      id
+    }
+  }
+}

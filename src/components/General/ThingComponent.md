@@ -1,0 +1,5 @@
+# Thing Component
+
+```jsx
+<ThingComponent />
+```

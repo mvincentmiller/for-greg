@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[63],{62:function(a,e,t){"use strict";t.r(e),t.d(e,"Columns",(function(){return u}));var n=t(0),c=t.n(n),s=t(17),u=Object(s.a)((function(a){return c.a.createElement("div",{className:"container"},c.a.createElement("div",{className:"columns "+a.columnClass},a.data&&Object.keys(a.data).map((function(e){var t=new Object(a.data[e]);return t.value=e,c.a.createElement(a.Component,{key:e,data:t})}))))}))}}]);
+//# sourceMappingURL=63.32d29527.chunk.js.map

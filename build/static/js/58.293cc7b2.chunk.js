@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[58],{90:function(n,t,e){"use strict";e.r(t),e.d(t,"ThingComponent",(function(){return r}));var a=e(0),u=e.n(a),o=e(17),l=e(29),r=Object(o.a)((function(n){var t=Object(a.useContext)(l.a);return console.log(n),u.a.createElement("div",null,u.a.createElement("p",null,t.thing))}))}}]);
+//# sourceMappingURL=58.293cc7b2.chunk.js.map

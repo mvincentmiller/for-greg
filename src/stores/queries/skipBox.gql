@@ -1,0 +1,10 @@
+mutation subscriptionSkip(
+  $accessToken: String!
+  $subscription: SubscriptionSkipInput!
+) {
+  subscriptionSkip(accessToken: $accessToken, subscription: $subscription) {
+    subscription {
+      id
+    }
+  }
+}

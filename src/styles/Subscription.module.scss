@@ -1,0 +1,30 @@
+.subscriptionHeader {
+  font-weight: bold;
+  font-size: 24px;
+}
+.pageHeader {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+.subscriptionDetails {
+  color: black;
+  font-weight: 700;
+  span {
+    font-weight: normal;
+  }
+}
+.accountLink {
+  color: #2a5cdb;
+  font-weight: 400;
+}
+.boxImage {
+  max-height: 275px;
+  @media (max-width: 789px) {
+    max-height: 150px;
+  }
+}
+.subscriptionContainer {
+  margin-bottom: 20px;
+}

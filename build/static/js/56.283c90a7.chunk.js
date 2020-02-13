@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[56],{57:function(e,t,a){"use strict";a.r(t),a.d(t,"Loading",(function(){return s}));var n=a(0),l=a.n(n),s=function(e){return l.a.createElement("div",{className:"has-text-centered"},l.a.createElement("h1",null,"One moment..."),l.a.createElement("img",{alt:"loading",style:{width:"120px",margin:"40px"},src:e.imageUrl?e.imageUrl:"https://assets.bulubox.com/loading.gif"}))};t.default=s}}]);
+//# sourceMappingURL=56.283c90a7.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["NavBar.module.scss"],"names":[],"mappings":"AAAA,uBACE,eAAiB,CADnB,6BAGI,sCAAwC","file":"14.380d5d3d.chunk.css","sourcesContent":[".navItem {\n  font-weight: bold;\n  &:hover {\n    background-color: transparent !important;\n  }\n}\n"]}

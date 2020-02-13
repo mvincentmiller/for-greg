@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[52],{55:function(t,e,a){"use strict";a.r(e);var s=a(0),n=a.n(s),u=a(17),c=Object(u.a)((function(){return n.a.createElement("div",{className:"has-text-centered"},n.a.createElement("input",{type:"submit",value:"Pay Now",className:"button is-success",style:{marginBottom:"20px"}}))}));e.default=c}}]);
+//# sourceMappingURL=52.a5acdca3.chunk.js.map

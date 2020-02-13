@@ -1,0 +1,39 @@
+//@import '../bulma-vars.scss';
+
+$colors: (
+  Gold: #dbcba5,
+  Blue: #1994d7,
+  Pink: #d28be7,
+  Primary: #3273dc,
+);
+
+@each $name, $hex in $colors {
+  .Border#{$name} {
+    > * {
+      &:focus,
+      &:active,
+      &:hover {
+        box-shadow: 0 0 0 2px $hex, 0 3px 10px 0 rgba(0, 0, 0, 0.2) !important;
+        outline: 0;
+      }
+    }
+  }
+  .BorderActive#{$name} {
+    > * {
+      box-shadow: 0 0 0 2px $hex, 0 2px 10px 0 rgba(0, 0, 0, 0.2) !important;
+      outline: 0;
+    }
+  }
+}
+
+.BorderDisabled {
+  > * {
+    box-shadow: none !important;
+    &:focus,
+    &:active,
+    &:hover {
+      box-shadow: none !important;
+      cursor: auto;
+    }
+  }
+}

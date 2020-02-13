@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+    <title>Bulu Gold Standard Storefront Engine</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.11.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      .deviceFix {
+        height: 100vh;
+      }
+      a,
+      li {
+        color: #d4af37 !important;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-dark is-bold is-fullheight-with-navbar deviceFix">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img
+                  src="https:///assets.bulubox.com/assets/bulugroup-logo.png"
+                  alt="Logo"
+                />
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item">
+                  Home
+                </a>
+                <a
+                  class="navbar-item"
+                  href="https://gs.bulu.io/styleguide/"
+                  target="_blank"
+                >
+                  Examples
+                </a>
+
+                <a
+                  class="navbar-item"
+                  href="https://gs.bulu.io/docs/"
+                  target="_blank"
+                >
+                  Documentation
+                </a>
+                <span class="navbar-item">
+                  <a href="https://github.com/BuluBox/gs" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Github
+                  </a>
+                </span>
+                <span class="navbar-item">
+                  <a
+                    class="button is-warning is-inverted"
+                    href="https://gs.bulu.io/app/"
+                    target="_blank"
+                  >
+                    <span>Live Demo</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Gold Standard Portal
+          </h1>
+          <h2 class="subtitle">
+            Start with 70% eveytime.
+          </h2>
+        </div>
+      </div>
+
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li>
+                <a href="https://gs.bulu.io/styleguide/" target="_blank"
+                  >React Styleguide</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://gold.staging.bulubox.com/login/?next=/customer/"
+                  target="_blank"
+                  >Box Builder GS</a
+                >
+              </li>
+              <li>
+                <a href="https://gs.bulu.io/docs/" target="_blank"
+                  >Gold Standard Docs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://app.asana.com/0/portfolio/1148768744609198/list"
+                  target="_blank"
+                  >Asana Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://gold.staging.bulubox.com/admin/login/?next=/admin/graphql/requestlog/"
+                  target="_blank"
+                  >GraphQL Request Log</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://gold.staging.bulubox.com/api/graphql/"
+                  target="_blank"
+                  >GraphQL API explorer</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- <section class="section">
+      <div class="container">
+        <h1 class="title is-4 is-gray">Build Bulu customer faceing digital products better and faster.</h1>
+        <div class="columns">
+          <div class="column">
+            <div class="box"></div>
+          </div>
+          <div class="column">
+              <div class="box"><h2 class="title is-4">Two</h2></div>
+          </div>
+          <div class="column">
+              <div class="box"><h2 class="title is-4">Three</h2></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer is-warning">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Gold Standard</strong> by <a href="https://bulugroup.com">Bulu</a>
+        </p>
+      </div>
+    </footer>
+  --></body>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger'),
+        0
+      )
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target
+            const $target = document.getElementById(target)
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active')
+            $target.classList.toggle('is-active')
+          })
+        })
+      }
+    })
+  </script>
+</html>

@@ -1,0 +1,45 @@
+mutation checkoutCreate($checkout: CheckoutCreateInput!) {
+  checkoutCreate(checkout: $checkout) {
+    checkout {
+      token
+      discountAmount
+      discountCode
+      email
+      lineItems {
+        title
+        quantity
+        variantId
+        price
+        image
+        properties {
+          key
+          value
+        }
+      }
+      shippingAddress {
+        name
+        address1
+        address2
+        city
+        state
+        zipcode
+      }
+      billingAddress {
+        name
+        address1
+        address2
+        city
+        state
+        zipcode
+      }
+      taxesIncluded
+      taxLines {
+        price
+        title
+      }
+      totalTax
+      subtotalPrice
+      totalPrice
+    }
+  }
+}

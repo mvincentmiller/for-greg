@@ -1,0 +1,51 @@
+query customer($AccessToken: String) {
+  customer(accessToken: $AccessToken) {
+    id
+    name
+    uuid
+    stripeId
+    shipments {
+      orderDate
+      orderNumber
+      status
+      shippingDate
+      shippingStatus
+      trackingLink
+      trackingNumber
+    }
+    subscriptions {
+      id
+      rechargeId
+      rechargeAddressId
+      createdAt
+      nextChargeDate
+      nextShipmentDate
+      status
+      sku
+      address {
+        id
+        rechargeId
+        address1
+        name
+        address2
+        city
+        state
+        zipcode
+      }
+    }
+    email
+    billingInfo {
+      name
+      address1
+      address2
+      city
+      state
+      zipcode
+      cardBrand
+      cardExpYear
+      cardExpMonth
+      cardLast4
+      stripeCardId
+    }
+  }
+}

@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[60],{39:function(s,r,e){"use strict";e.r(r),e.d(r,"ProgressBar",(function(){return o}));var a=e(0),t=e.n(a),n=e(17),u=e(28),o=Object(n.a)((function(s){var r=Object(a.useContext)(u.a);return t.a.createElement("progress",{class:"progress is-small",value:r.progress,max:"100"},s.value,"%")}))}}]);
+//# sourceMappingURL=60.14e3ea3f.chunk.js.map

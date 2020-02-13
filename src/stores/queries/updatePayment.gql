@@ -1,0 +1,16 @@
+mutation billingUpdate($accessToken: String!, $stripeToken: String!) {
+  billingUpdate(accessToken: $accessToken, stripeToken: $stripeToken) {
+    billingInfo {
+      name
+      address1
+      address2
+      city
+      state
+      zipcode
+      cardBrand
+      cardExpMonth
+      cardExpYear
+      cardLast4
+    }
+  }
+}

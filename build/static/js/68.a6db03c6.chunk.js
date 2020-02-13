@@ -1,0 +1,2 @@
+(this["webpackJsonpbulu-gold-standard"]=this["webpackJsonpbulu-gold-standard"]||[]).push([[68],{115:function(a,t,n){a.exports=n.p+"static/media/AccountContainer.0aabb961.md"}}]);
+//# sourceMappingURL=68.a6db03c6.chunk.js.map
